@@ -1,0 +1,75 @@
+
+
+/* id starts with '#' and can be used only once per page */
+#body-style {
+  /* left-side is property and right side is the value of that property */
+  background-color: #F6F6F6;
+  margin-left: 30px;
+}
+
+/* class starts with '.' and can be used multiple times on the same page */
+.red {
+  color: red;
+}
+.blue {
+  color: blue;
+}
+.text-style {
+  font-size: 24px;
+  text-align: center;
+}
+
+#h1-style{
+  font-size: 35px;
+  color:#E15554;
+  text-align: center;
+}
+#h2-style{
+  font-size: 25px;
+  color:white;
+  background-color:#E1BC29;
+  text-align: left;
+}
+#h3-style{
+  text-decoration: underline;
+}
+#p-style{
+  font-size: 20px;
+  font-weight: 100;
+}
+footer p {
+  font-weight: bolder;
+  color: white;
+}
+.staff-style {
+  font-size: 20px;
+  font-weight: 100;
+  text-align:left;
+  list-style: circle;
+}
+.capped-style li {
+  font-size: 20px;
+  font-weight: 500;
+  text-align:left;
+}
+.active{
+  font-size: 20px;
+  font-weight:bold;
+  text-align:left;
+}
+.link-style{
+  color:#E15554;
+  font-size: 20px;
+  text-decoration: none;
+  }
+.uppercased{
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align:right;
+}
+#nav-style ul li {
+  display:inline;
+}
+* {
+  font-family:Montserrat, sans-serif;
+}
